@@ -1,0 +1,21 @@
+import java.util.Scanner ;
+
+public class patika {
+    public static void main(String[] args) {
+
+        double m ,kg, sonuc ;
+
+
+        Scanner inp = new Scanner(System.in);
+
+        System.out.println(" Kilonuzu Giriniz =" );
+        kg = inp.nextDouble();
+
+        System.out.println(" Boyunuzu Giriniz = " );
+        m = inp.nextDouble();
+
+        sonuc = kg /( m * m );
+
+        System.out.println("Vücut Kitle Endeksiniz =  " + sonuc);
+    }
+}
